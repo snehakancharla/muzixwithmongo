@@ -32,8 +32,8 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
-//@WebMvcTest
-@DataMongoTest
+@WebMvcTest
+
 public class MuzixControllerTest {
 
     @Autowired
